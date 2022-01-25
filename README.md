@@ -1,6 +1,6 @@
 
 <p align="center">
-      <font size="6"> This is my text number1</font>
+      <font size="100"> Final Project Proposal </font>
 </p>
 
 <p align="center">
