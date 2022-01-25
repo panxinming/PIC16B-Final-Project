@@ -1,10 +1,11 @@
 
 <p align="center">
-    Final Project Proposal
+    # Final Project Proposal
 </p>
 
-
-Xinming Pan, Xinyu Dong
+<p align="center">
+    Xinming Pan, Xinyu Dong
+</p>
 
 ## 1. Abstract
 Breast cancer is the second leading cause of cancer death in women, with a death rate of 1 in 39 (about 2.6%). By using data containing some basic information about patients, we want to make predictions about whether they have breast cancer or not. Our team will divide a huge data set from the Internet into two parts—training and testing and use advanced machine learning methods to make predictions.
