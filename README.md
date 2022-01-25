@@ -1,6 +1,6 @@
 
 <p align="center">
-      <font size="100"> Final Project Proposal </font>
+      <font size=17> Final Project Proposal </font>
 </p>
 
 <p align="center">
