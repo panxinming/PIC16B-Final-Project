@@ -7,6 +7,11 @@
     Xinming Pan, Xinyu Dong
 </p>
 
+## Questions
+1. What do you think about the idea of our project. Do you think it's useful and meaningful?
+2. If you are a potential breast cancer patient who want to use our WebAPP. Would you believe our test result? If not, can you give use some suggestions that we can win more trust from patients.
+3. We want to build our WebApp as a medical platform. However, our App can just give us a prediction of breast cancer currenctly. If possible, do you have some sugggestoins that we can add to make our WebApp more attractive? 
+
 ## 1. Abstract
 Breast cancer is the second leading cause of cancer death in women, with a death rate of 1 in 39 (about 2.6%). By using data containing some basic information about patients, we want to make predictions about whether they have breast cancer or not. Our team will divide a huge data set from the Internet into two parts—training and testing and use advanced machine learning methods to make predictions.
 
