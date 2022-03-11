@@ -12,6 +12,17 @@
 2. If you are a potential breast cancer patient who want to use our WebAPP. Would you believe our test result? If not, can you give use some suggestions that we can win more trust from patients.
 3. We want to build our WebApp as a medical platform. However, our App can just give us a prediction of breast cancer currenctly. If possible, do you have some sugggestoins that we can add to make our WebApp more attractive? 
 
+
+## How to Use Our WebApp
+Finally, we already construct our WebApp. It's developed by python. We used a lot of machine learning method and some very popular python packages. Now, I will introduce our App and how we use it.
+First of all, this App is created for the patients who has potential breast cancer. So, if you are not the appropriate person, this App is only just for fun. Before you use it, you should understand the function of it. The App is created to predict one person has breast cancer or not.
+Secondly, our App needs four detail information of the patient, so that our App can give them a prediction. If one of these information was lacked, it will return error.
+Thirdly, the App will not go into medical field. Even though our prediction has very high accuracy, it still doesn't mean 100% correct. So, if one patient really want to test whether she got breast cancer or not. We highly recommend her to go to hospital instead of using our App. And we won't be responsible for the test result.
+Last but not least, our App may has some bias. Because all the data is collected comes from United States. So, if you are the patients who come from Aisa, Africa, Europe etc. The prediction may be incorrect. 
+
+If you fully understand the potential disadvantages of our App and accept the potential danger, I think you can use our WebApp right now. Good Luck and have fun.
+
+
 ## 1. Abstract
 Breast cancer is the second leading cause of cancer death in women, with a death rate of 1 in 39 (about 2.6%). By using data containing some basic information about patients, we want to make predictions about whether they have breast cancer or not. Our team will divide a huge data set from the Internet into two parts—training and testing and use advanced machine learning methods to make predictions.
 
