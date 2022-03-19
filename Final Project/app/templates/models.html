@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Models{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<h2> Models </h2>
+  <ul>
+    <li>Logistic Regression</li>
+    <li>Decision Tree</li>
+    <li>Multilayer Perceptron</li>
+    <li>Random Forest</li>
+    <li>Support Vector Machine</li>
+    <li>Tensor Flow</li>
+  </ul>
+
+  <h2> Features </h2>
+  <ul>
+    <li>cols0 = all features
+    <li>cols1 = ['perimeter_worst','perimeter_mean','area_worst','area_mean','concave.points_mean','concave.points_worst',
+                'radius_worst','radius_mean','concavity_worst','concavity_mean']</li> 
+    <li>cols2 = ["radius_mean","perimeter_mean","area_mean",'concave.points_mean','concavity_mean']</li>
+    <li>cols3 = ['perimeter_worst','perimeter_mean','area_worst','area_mean','concave.points_mean','concave.points_worst']</li>
+    <li>cols4 = ['perimeter_worst','perimeter_mean','area_worst','area_mean']</li>
+    <li>cols5 = ['area_worst','area_mean','concave.points_mean','concave.points_worst']</li>
+    <li>cols6 = ['area_mean','concave.points_mean']</li>
+  </ul>
+
+<div align = center>
+  <img src="https://raw.githubusercontent.com/xinyudong1129/xinyudong1129.github.io/master/images/models1.png" width="826px" height="660px">
+
+</div>
+
+<p></p>
+<p></p>
+<p></p>
+<form method="post">
+   <button type="submit">Next Page</button>
+</form>
+
+{% endblock %}
+  
+

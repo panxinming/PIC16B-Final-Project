@@ -1,0 +1,19 @@
+<!doctype html>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<title>{% block title %}{% endblock %} - Breast Cancer Prediction</title>
+<nav>
+  <h1>Breast Cancer Prediction Webapp!</h1>
+  <!-- <b>Navigation:</b> -->
+  <ul>
+    <li><a href="{{ url_for('Preprocessing')}}">Preprocessing</a></li>
+    <li><a href="{{ url_for('Feature_selection') }}">Feature_selection</a></li>
+    <li><a href="{{ url_for('Models') }}">Models</a></li>
+    <li><a href="{{ url_for('Diagnosis') }}">Diagnosis</a></li>
+  </ul>
+</nav>
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% block content %}{% endblock %}
+</section>
