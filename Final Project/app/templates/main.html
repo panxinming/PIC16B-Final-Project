@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Breast Cancer Wisconsin (Diagnostic) Data Set{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<h2> Datasets: </h2>
+
+  <p>Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.</p>
+
+  <p>You can find the datasets on : <a href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29">UCI Machine Learning Repository</a></url></p>
+  
+  <img src="https://raw.githubusercontent.com/xindong1129/xindong1129.github.io/master/images/database.png" width="1200px" height="300px">
+  
+  
+  <h2> Attribute Information: </h2>
+  <p>1) ID number </li>
+  <p>2) Diagnosis (M = malignant, B = benign) </p>
+  <p>3-32)Ten real-valued features are computed for each cell nucleus: </p>  
+  <p>a) radius (mean of distances from center to points on the perimeter)</p>
+  <p>b) texture (standard deviation of gray-scale values)</p>
+  <p>c) perimeter </p>
+  <p>d) area</p>
+  <p>e) smoothness (local variation in radius lengths) </p>
+  <p>f) compactness (perimeter^2 / area - 1.0) </p>
+  <p>g) concavity (severity of concave portions of the contour)</p>
+  <p>h) concave points (number of concave portions of the contour) </p>
+  <p>i) symmetry </p>
+  <p>j) fractal dimension ("coastline approximation" - 1)</p>
+  <p>The mean, standard error and worst or largest (mean of the three largest values) of these features were computed for each image,resulting in 30 features. For instance, field 3 is Mean Radius, field     
+    13 is Radius SE, field 23 is Worst Radius.</p>
+  <p>All feature values are recoded with four significant digits.</p>
+  <p>Missing attribute values: none </p>
+  <p>Class distribution: 357 benign, 212 malignant</p>
+
+
+<form method="post">
+   <button type="submit">Next Page</button>
+</form>
+
+{% endblock %}

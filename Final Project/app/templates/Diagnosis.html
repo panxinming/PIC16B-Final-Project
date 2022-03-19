@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Diagnosis{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post" enctype="multipart/form-data">
+    <h2> Please input data </h2>
+    <label for="text1">area_worst</label>
+    <input type="text1" name="text1" id="text1">
+    <br>
+    <label for="text2">area_mean</label>
+    <input type="text2" name="text2" id="text2">
+    <br>
+    <label for="text3">concave.points_mean</label>
+    <input type="text3" name="text3" id="text3">
+    <br>
+    <label for="text4">concave.points_worst</label>
+    <input type="text4" name="text4" id="text4">
+    <br>
+    <h2> Please select a model </h2>
+    <input type="radio" name="model" id="LR" value="LR">
+    <label for="Logistic Regression">Logistic Regression</label>
+    <br>
+    <input type="radio" name="model" id="DT" value="DT">
+    <label for="Decision Tree">Decision Tree</label>
+    <br>
+    <input type="radio" name="model" id="MLP" value="MLP">
+    <label for="Multilayer Perceptron">Multilayer Perceptron</label>
+    <br>
+    <input type="radio" name="model" id="RF" value="RF">
+    <label for="Random Forest">Random Forest</label>
+    <br>
+    <input type="radio" name="model" id="SVM" value="SVM">
+    <label for="Support Vector Machine">Support Vector Machine</label>
+    <br>
+    <input type="radio" name="model" id="TF" value="TF">
+    <label for="Tensor Flow">Tensor Flow</label>
+    <br>
+    
+    <input type="submit" value="Diagnosis">
+  </form>
+
+  
+  {% if result1 %}
+    <br>
+    The diagnosis of the breast cancer is malignant.
+    <br>
+  {% endif %}
+
+  {% if result2 %}
+    <br>
+    The diagnosis of the breast cancer is benign.
+    <br>
+  {% endif %}
+  
+
+  {% if error %}
+    <br>
+    Oh no, we couldn't use that file!  Please upload an 8x8 numpy array as a text file.
+  {% endif %}
+{% endblock %}
