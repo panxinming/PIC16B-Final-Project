@@ -24,5 +24,5 @@ If you fully understand the potential disadvantages of our App and accept the po
 ## How to Use This WebApp
 1. Open the folder named Final Project with Visual Studio Code.
 2. Open a new terminal and type in 'SET flask_ENV=development'.
-3. Press enter and type in 'flask run'.
+3. Press enter and type in 'flask run'. Press enter again.
 4. Then click the website that Visual Studio Code generated.
